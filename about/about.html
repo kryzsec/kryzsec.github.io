@@ -1,6 +1,52 @@
+<!DOCTYPE HTML>
 <html>
+<head>
+	<title>Brodie's Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Brodie Brenna">
+	<style>
+	body{
+		background-color: #A6A6A6;
+	}
+	table, th, td{
+		border: 1px solid black;
+	}
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #333;
+	}
 
-  <body>
-    <p>For more information, look <a href="https://docs.google.com/document/d/17VF89ztsTu37cWhZj3scLfLu7gEYqoECCshwVdXu28A/edit?usp=sharing">Here</a></p>
-  </body>
+	li {
+	    float: left;
+	}
+
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+	    background-color: #111;
+	}
+
+	.active {
+	    background-color: #4CAF50;
+	}
+	</style>
+</head>
+<body>
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="Program/calculate.html">Calculator</a></li>
+	  <li><a class="active" href="About/about.html">About</a></li>
+	</ul>
+	<hr size=5>
+  <p>For more information on how this works, look <a href="https://docs.google.com/document/d/17VF89ztsTu37cWhZj3scLfLu7gEYqoECCshwVdXu28A/edit?usp=sharing"></a></p>
+</body>
 </html>
